@@ -143,9 +143,11 @@ a.current{
 }
 .dropdown-content a:hover {
 	background-color: #EEEEEE;
+	
 }
 .dropdown:hover .dropdown-content {
 	display: block;
+	margin-top: 60px;
 }
 
 
