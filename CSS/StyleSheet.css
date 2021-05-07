@@ -258,3 +258,36 @@ img.featured {
 	border: 10px solid #FFFFFF;
 	box-shadow: 3px 3px 5px 3px #EAEAEA;
 }
+
+/*gallery images*/
+div.gallery-container {
+	text-align: center;
+}
+figure.gallery {
+	width: 30%;
+	margin: 10px 10px;
+	display: inline-block;
+}
+figure.gallery img {
+	border: 10px solid #FFFFFF;
+	box-shadow: 3px 3px 5px 3px #EAEAEA;
+	width: 95%;
+	display: block;
+	margin: 20px auto;
+	opacity: 0.9;
+}
+figure.gallery img:hover {
+	opacity: 1;
+}
+figure.gallery figcaption:hover {
+	color: #B9DD37;
+}
+figure.gallery figcaption {
+	font-family: 'Poppins', sans-serif;
+	color: #A2C523;
+	font-size: 1.2em;
+	font-weight: 600;
+	text-align: left;
+	margin-top: 5px;
+	text-align: center;
+}
