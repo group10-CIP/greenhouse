@@ -151,6 +151,52 @@ a.current{
 }
 
 
+/*article section*/
+.article-section {
+	position: absolute;
+	top: 800px;
+	background-color: #FFFFFF;
+	margin: 20px 80px;
+	display: block;
+	box-shadow: 0px 2px 10px 2px rgba(50,50,50,.10);
+	padding: 50px;
+}
+.article {
+	width: 95%;
+	overflow: auto;
+	padding: 10px;
+	margin: 25px auto;
+}
+.article img {
+	width: 500px;
+	float: left;
+	margin-right: 30px;
+	opacity: 0.9;
+}
+.author {
+	font-family: 'Poppins', sans-serif;
+	font-weight: 100;
+	font-size: 1em;
+	font-style: italic;
+	color: #636363;
+	text-indent: 0px;
+	line-height: 1.6;
+}
+.article h2 {
+	font-family: 'Poppins', sans-serif;
+	color: #46344E;
+	font-size: 2em;
+	font-weight: 600;
+	text-align: center;
+}
+.article:hover {
+	box-shadow: 3px 3px 5px 3px #EAEAEA;
+	cursor: pointer;
+}
+.article img:hover{
+	opacity: 1;
+}
+
 
 /*banner for pages excluding home*/
 .banner {
