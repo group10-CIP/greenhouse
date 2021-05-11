@@ -339,3 +339,55 @@ figure.gallery figcaption {
 	margin-top: 5px;
 	text-align: center;
 }
+
+
+/*contact form*/
+div.contact-logo {
+	width: 50%;
+	display: inline-block;
+}
+.contact-logo img{
+	display: block;
+	margin: auto;
+}
+div.contact {
+	font-family: 'Poppins', sans-serif;
+	font-weight: 600;
+	font-size: 1.2em;
+	color: #46344E;
+	line-height: 1.6;
+	width: 50%;
+	display: inline-block;
+	float: right;
+}
+.contact input[type=text] {
+	padding: 10px;
+	width: 90%;
+	margin-bottom: 10px;
+	margin-top: 5px;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 200;
+	font-size: 1em;	
+}
+.contact textarea {
+	resize: none;
+	padding: 10px;
+	margin-top: 5px;
+	width: 90%;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 200;
+	font-size: 1em;
+}
+.contact input[type=submit]{
+	font-family: 'Poppins', sans-serif;
+	font-weight: 300;
+	font-size: 1.2em;
+	color: #FFFFFF;
+	background-color: #A2C523;
+	padding: 10px 60px;
+	width: 94%;
+}
+.contact input[type=submit]:hover{
+	cursor: pointer;
+	background-color: #B9DD37;
+}
